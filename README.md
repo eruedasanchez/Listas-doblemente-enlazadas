@@ -1,4 +1,4 @@
-# Listas-doblemente-enlazadas
+# Listas doblemente enlazadas
 
 Ejercicios resueltos. Clase 5. Algoritmos y Estructuras de Datos II. Universidad de Buenos Aires.
 
