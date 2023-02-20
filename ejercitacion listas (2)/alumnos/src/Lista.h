@@ -88,10 +88,24 @@ public:
 private:
 
     struct Nodo {
-        // Completar
+        /*** Completar ***/
+        int data;
+        Nodo* prev;                                                                  // Puntero al nodo anterior de la lista
+        Nodo* next;                                                                  // Puntero al nodo siguiente de la lista
+        Nodo(const int& elem) : data(elem), prev(nullptr), next(nullptr) {}          // Constructor de nodo
+
     };
 
-    // Completar
+    /*** Completar ***/
+    Nodo* _first;                                                                    // Puntero al primer nodo de la lista
+    Nodo* _last;                                                                     // Puntero al ultimo nodo de la lista
+
+    /** Funcion que elimina el primer nodo de la lista **/
+    void sacarPrimero();
+
+    /** Funcion equivalente al destructor **/
+    void borrar();
+
 };
 
 #include "Lista.hpp"
