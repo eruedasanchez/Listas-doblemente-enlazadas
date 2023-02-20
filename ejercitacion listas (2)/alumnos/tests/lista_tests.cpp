@@ -139,3 +139,5 @@ TEST(lista_test, test_operador_asignacion) {
     ASSERT_EQ(otra.longitud(), 0);
 }
 
+/****** Todos los casos de tests funcionan corretamente :) ******/
+
